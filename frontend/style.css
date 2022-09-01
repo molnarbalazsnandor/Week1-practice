@@ -1,0 +1,37 @@
+/* h1{
+color:brown
+}
+#blue {
+    color:yellow
+}
+h1.purple {
+    color:purple;
+}
+p{
+    color:chocolate;
+    font-size: xx-large;
+}
+
+p.purple{
+    color: pink;
+} */
+
+body {
+  color: darkgoldenrod;
+  font-family: "Comic Neue", cursive;
+}
+
+div {
+  color: crimson;
+}
+
+.container-1 {
+  background-color: black;
+  height: 100px;
+  font-weight: 400;
+}
+
+p {
+  height: 90px;
+  font-weight: 300;
+}
