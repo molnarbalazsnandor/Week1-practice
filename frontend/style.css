@@ -12,7 +12,7 @@ span {
 }
 
 .border-added {
-  border: 10px solid black;
+  border: 100px solid black;
   padding: 20px;
   box-sizing: border-box;
 }
