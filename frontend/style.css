@@ -1,91 +1,18 @@
-/* --- start of CSS reset --- */
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: none;
-  box-sizing: border-box;
-  background: transparent;
-  font-family: inherit;
-}
-
-a {
-  text-decoration: none;
-}
-
-a img {
-  border: none;
-}
-
-button,
-a {
-  cursor: pointer;
-  color: inherit;
-}
-
-textarea {
-  resize: none;
-}
-
-button,
-textarea,
-select {
-  appearance: none !important;
-  border-radius: 0;
-}
-
-/* --- end of CSS reset --- */
-
-/* h1{
-color:brown
-}
-#blue {
-    color:yellow
-}
-h1.purple {
-    color:purple;
-}
-p{
-    color:chocolate;
-    font-size: xx-large;
-}
-
-p.purple{
-    color: pink;
-} */
-
-/* div {
-  color: crimson;
-}
-
-.container-1 {
-  background-color: black;
-  height: 100px;
-  font-weight: 400;
-}
-
-p {
-  height: 90px;
-  font-weight: 300;
-}
- */
-
-body {
-  color: darkgoldenrod;
-  font-family: "Comic Neue", cursive;
-  width: 100vw;
-  height: 100vh;
-}
-
 span {
+  width: 300px;
+  height: 300px;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(64, 62, 62);
 }
 
-.box {
-  width: 400px;
-  height: 400px;
-  background-color: aqua;
-  padding: 30px;
+.border-box {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.border-added {
+  border: 10px solid black;
+  padding: 20px;
+  box-sizing: border-box;
 }
